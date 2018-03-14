@@ -2,8 +2,8 @@ package definitions;
 
 import org.joda.time.DateTime;
 
-public class SmartSwap {
-	public SmartSwap(){
+public class SmartContract {
+	public SmartContract(){
 		
 	}
 	
