@@ -9,6 +9,7 @@ public class Wallet {
 	final private String address;
 	
 	public static enum BufferTypes{
+		CouponCashflowBuffer,
 		VariationMarginBuffer,
 		PenaltyMarginBuffer
 	}
@@ -43,7 +44,7 @@ public class Wallet {
 		
 	}
 	
-	public Wallet	executeTransaction(Transaction transaction){
+	public Wallet	settleTransaction(Transaction transaction){
 		Wallet walletClone = new Wallet(this);
 		return walletClone;
 	}
