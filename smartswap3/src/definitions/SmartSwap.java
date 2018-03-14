@@ -1,5 +1,7 @@
-package smartswap3;
+package definitions;
 
 public class SmartSwap {
-
+	public SmartSwap(){
+		
+	}
 }
